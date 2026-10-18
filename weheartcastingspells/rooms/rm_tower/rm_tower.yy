@@ -224,7 +224,6 @@
     {"name":"inst_48E73E7F","path":"rooms/rm_tower/rm_tower.yy",},
     {"name":"inst_403DC43B","path":"rooms/rm_tower/rm_tower.yy",},
     {"name":"inst_64860CCD","path":"rooms/rm_tower/rm_tower.yy",},
-    {"name":"inst_11A704A9","path":"rooms/rm_tower/rm_tower.yy",},
   ],
   "isDnd":false,
   "layers":[
