@@ -17,16 +17,16 @@ burning = false;
 burn_timer = 0;
 
 #macro STARTING_WIND_TIME (room_speed * 5)
-#macro WIND_FORCE 1.3
+#macro WIND_FORCE 1.
 wind_timer = 0;
 
 gravity_reg = false;
 gravity_rev = false;
 
-#macro STARTING_LIGHTNING_TIME (room_speed * 10)
-#macro LIGHTNING_HORIZONTAL_LENGTH 100  // warning
+#macro STARTING_LIGHTNING_TIME (room_speed * 8)
+#macro LIGHTNING_HORIZONTAL_LENGTH 80  // warning
 #macro LIGHTNING_REAL_HORIZONTAL_LENGTH 20  // actual stun
-#macro LIGHTNING_WARNING_TIME 3.1  // seconds? 
+#macro LIGHTNING_WARNING_TIME 1.7  // seconds? 
 lightning_timer = 0;
 future_lightning_locations = []
 
