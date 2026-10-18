@@ -1,4 +1,10 @@
-
+if (!variable_global_exists("cast_water")) {
+	global.cast_water = false
+	global.cast_fire = false
+	global.cast_wind = false
+	global.cast_lightning = false
+	global.udp_server = network_create_server_raw(network_socket_udp, 6510, 1);
+}
 
 if (abs(velocity[0]) < VELOCITY_EPSILON) {
 	velocity[0] = 0.
@@ -47,13 +53,15 @@ if (slam_available && not is_on_ground && dir[1] == 1) {
 }
 
 // temp stun
-if (keyboard_check(ord("V"))) {
+if (keyboard_check(ord("V")) || global.cast_water) {
+	global.cast_water = false
 	stun_duration_left = LIGHTNING_STUN_DURATION
 }
 
 //wind
 
-if (keyboard_check(ord("Y"))){
+if (keyboard_check(ord("Y")) || global.cast_wind){
+	global.cast_wind = false
 	wind_timer = STARTING_WIND_TIME
 }
 
@@ -69,7 +77,8 @@ else {
 
 //fire
 
-if (keyboard_check(ord("U"))){
+if (keyboard_check(ord("U")) || global.cast_fire){
+	global.cast_fire = false
 	burn_timer = STARTING_BURN_TIME;
 	burning = true;
 	jitter_timer = 0;
@@ -100,7 +109,8 @@ if (burn_timer > 0){
 
 // lightning
 
-if (keyboard_check(ord("L"))) {
+if (keyboard_check(ord("L")) || global.cast_lightning) {
+	global.cast_lightning = false
 	lightning_timer = STARTING_LIGHTNING_TIME 
 	// future_lightning_locations = []
 }
