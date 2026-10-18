@@ -21,7 +21,7 @@ var center = [
 
 window_set_rectangle(center[0], center[1], view_wport[0], view_hport[0])
 surface_resize(application_surface, view_wport[0], view_hport[0])
-window_set_fullscreen(true)
+// window_set_fullscreen(true)
 
 /*
 settings for camera tracking and zoom: 
