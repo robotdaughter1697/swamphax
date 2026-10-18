@@ -21,6 +21,7 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_gradient-1.0.0","name":"io.gamemaker.gm_filter_gradient-1.0.0","path":"io.gamemaker.gm_filter_gradient-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_blend-1.0.0","name":"io.gamemaker.gm_effect_blend-1.0.0","path":"io.gamemaker.gm_effect_blend-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
