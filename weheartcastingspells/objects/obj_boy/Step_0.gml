@@ -237,10 +237,12 @@ else {
 if (stun_duration_left > 0) {
 	--stun_duration_left;
 	
-	image_blend = c_blue;
-}
-else {
-	image_blend = c_white;
+	if (stun_duration_left == 0) {
+		image_blend = c_white;	
+	}
+	else {
+		image_blend = c_blue;
+	}
 }
 
 
