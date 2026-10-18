@@ -166,13 +166,13 @@ else {
 
 var horizontal_collider = instance_place(proposed_x, y, [obj_platform, obj_jump, obj_tower_col])
 if (horizontal_collider) {
-	if (velocity[0] > 0) {
+	if (proposed_x < horizontal_collider.bbox_left) {
 		velocity[0] = 0
-		x = horizontal_collider.bbox_left - (bbox_right - x)
+		x = horizontal_collider.x - sprite_width
 	}
-	else {
+	if ((proposed_x + sprite_width) > horizontal_collider.bbox_right) {
 		velocity[0] = 0
-		x = horizontal_collider.bbox_right - (bbox_left - x)
+		x = horizontal_collider.bbox_right - 4
 	}
 }
 else {

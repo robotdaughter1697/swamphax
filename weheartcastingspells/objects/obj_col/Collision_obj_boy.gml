@@ -4,6 +4,6 @@ if (!instance_exists(obj_fade)) {
         0, 0, -10000, obj_fade
     );
 
-    fade.target_room = rm_main;
+    fade.target_room = rm_tower;
     fade.fade_state = 1;
 }
