@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"controllers","folderPath":"folders/controllers.yy","name":"controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"scripts","folderPath":"folders/scripts.yy","name":"scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -22,6 +23,7 @@
     {"link":"io.gamemaker.gm_filter_gradient-1.0.0","name":"io.gamemaker.gm_filter_gradient-1.0.0","path":"io.gamemaker.gm_filter_gradient-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_effect_blend-1.0.0","name":"io.gamemaker.gm_effect_blend-1.0.0","path":"io.gamemaker.gm_effect_blend-1.0.0.yyp",},
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -31,6 +33,7 @@
   },
   "name":"weheartcastingspells",
   "resources":[
+    {"id":{"name":"mana_font","path":"fonts/mana_font/mana_font.yy",},},
     {"id":{"name":"start_font","path":"fonts/start_font/start_font.yy",},},
     {"id":{"name":"obj_boy","path":"objects/obj_boy/obj_boy.yy",},},
     {"id":{"name":"obj_col_2","path":"objects/obj_col_2/obj_col_2.yy",},},

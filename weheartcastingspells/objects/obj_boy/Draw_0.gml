@@ -19,6 +19,26 @@ draw_healthbar(
 	false
 )
 
+draw_set_colour(c_navy)
+draw_set_font(mana_font)
+
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+draw_text_transformed(
+	camera_get_view_x(view_camera[0]) + MANA_BAR_LEFT + 60, 
+	camera_get_view_y(view_camera[0]) + MANA_BAR_TOP + 10, 
+	"mana", 
+	1.4, 1.3, 
+	1.6 * sin(0.8 * get_timer() / 1000000)
+)
+
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+draw_set_font(start_font)
+draw_set_colour(c_white)
+
 // probably not worth the time!
 //wind_lines = []
 
