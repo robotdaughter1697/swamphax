@@ -39,11 +39,11 @@ if (show_show = 1) {
 }
 
 if (wind_timer > 0) {
-    render_spell_warning("Wind!", wind_timer / STARTING_WIND_TIME)
+    render_spell_warning("Wizard casted Wind!", wind_timer / STARTING_WIND_TIME)
 }
 if (burn_timer > 0) {
-    render_spell_warning("Fire!", burn_timer / STARTING_BURN_TIME)
+    render_spell_warning("Wizard casted Fire!", burn_timer / STARTING_BURN_TIME)
 }
 if (lightning_timer > 0) {
-    render_spell_warning("Lightning!", lightning_timer / STARTING_LIGHTNING_TIME)
+    render_spell_warning("Wizard casted Lightning!", lightning_timer / STARTING_LIGHTNING_TIME)
 }
