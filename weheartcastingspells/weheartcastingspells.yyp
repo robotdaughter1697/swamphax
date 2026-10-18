@@ -56,6 +56,7 @@
     {"id":{"name":"obj_turn","path":"objects/obj_turn/obj_turn.yy",},},
     {"id":{"name":"obj_win_win","path":"objects/obj_win_win/obj_win_win.yy",},},
     {"id":{"name":"obj_wizard","path":"objects/obj_wizard/obj_wizard.yy",},},
+    {"id":{"name":"obj_zemoon","path":"objects/obj_zemoon/obj_zemoon.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGlobalInput","path":"objects/oGlobalInput/oGlobalInput.yy",},},
     {"id":{"name":"pos","path":"objects/pos/pos.yy",},},
