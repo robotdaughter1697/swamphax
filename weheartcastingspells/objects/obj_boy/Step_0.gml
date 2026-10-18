@@ -172,7 +172,7 @@ if (horizontal_collider) {
 	}
 	if ((proposed_x + sprite_width) > horizontal_collider.bbox_right) {
 		velocity[0] = 0
-		x = horizontal_collider.bbox_right - 4
+		x = horizontal_collider.bbox_right
 	}
 }
 else {
