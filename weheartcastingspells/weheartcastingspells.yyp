@@ -89,6 +89,7 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"zeMoon_spr","path":"sprites/zeMoon_spr/zeMoon_spr.yy",},},
     {"id":{"name":"ground_tileset","path":"tilesets/ground_tileset/ground_tileset.yy",},},
     {"id":{"name":"hori_tileset","path":"tilesets/hori_tileset/hori_tileset.yy",},},
     {"id":{"name":"tower_tileset","path":"tilesets/tower_tileset/tower_tileset.yy",},},
