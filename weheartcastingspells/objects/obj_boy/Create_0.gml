@@ -17,7 +17,7 @@ burning = false;
 burn_timer = 0;
 
 #macro STARTING_WIND_TIME (room_speed * 5)
-#macro WIND_FORCE 1.
+#macro WIND_FORCE 0.6
 wind_timer = 0;
 
 gravity_reg = false;

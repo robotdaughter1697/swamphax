@@ -33,7 +33,7 @@ var new_position = [
 	lerp(old_position[0], goal_position[0], 0.06), 
 	lerp(old_position[1], goal_position[1], 0.02)
 ]
-if (room == rm_start) {
+if (room == rm_start || room == rm_lose || room = rm_win) {
 	new_position = [
 		clamp(new_position[0], 0, view_wport[0]), 
 		clamp(new_position[1], 0, view_hport[0])
